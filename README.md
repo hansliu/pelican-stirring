@@ -1,6 +1,6 @@
 # Stirring
 
-Stirring is a theme for Pelican, it's inspired by the Pelican's theme Fresh, Hexo's theme Tranquilpeak, and Medium.com.
+Stirring is a theme for Pelican, it's inspired by the Pelican's theme [Fresh](https://github.com/jsliang/pelican-fresh), Hexo's theme [Tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak), and [Medium](https://medium.com/).
 
 Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-stirring-demo).
 
@@ -44,12 +44,12 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 ### Built-in Global Variables
 
-- GOOGLE_ANALYTICS
-- GOOGLE_CUSTOM_SEARCH
 - DISQUS_SITENAME
+- GOOGLE_ANALYTICS
 
 ### Theme-specific Global Variables
 
+- GOOGLE_CUSTOM_SEARCH
 - SITEAUTHORS
 - SITECATEGORIES
 - MENU_ITEMS
