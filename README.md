@@ -44,12 +44,12 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 ### Built-in Global Variables
 
-- GOOGLE_ANALYTICS
-- GOOGLE_CUSTOM_SEARCH
 - DISQUS_SITENAME
+- GOOGLE_ANALYTICS
 
 ### Theme-specific Global Variables
 
+- GOOGLE_CUSTOM_SEARCH
 - SITEAUTHORS
 - SITECATEGORIES
 - MENU_ITEMS
