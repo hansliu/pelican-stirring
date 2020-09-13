@@ -81,15 +81,18 @@ SITECATEGORIES =
     }
 }
 SITEFAVICON = 'your favicon.ico path'
-SITECOVER = 'your cover image path'
+SITECOVER = 'your background cover image path'
+# Replace MENUITEMS, the tuple list support font awesome icon
 THEME_MENUITEMS = (
     ('Home', '#', 'fas fa-home'),
     ('You can modify those links in your config file', '#', 'font awesome icon')
 )
+# Replace SOCIAL, the tuple list support font awesome icon
 THEME_SOCIAL = (
     ('Github', 'https://github.com/hansliu', 'fab fa-github-square fa-2x'),
     ('You can modify those links in your config file', '#', 'font awesome icon')
 )
+# The INTERNAL LINKS open the linked in current window
 INTERNAL_LINKS = (
     ('Terms', 'pages/tos.html'),
     ('Privacy', 'pages/privacy.html')
