@@ -51,66 +51,43 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 - DISQUS_SITENAME
 - GOOGLE_ANALYTICS
 
+```python
+DISQUS_SITENAME = 'your disqus sitename'
+GOOGLE_ANALYTICS = 'your google analytics Id'
+```
+
 ### Theme-specific Global Variables
 
-**GOOGLE_CUSTOM_SEARCH:**
+- GOOGLE_CUSTOM_SEARCH
+- SITEAUTHORS
+- SITECATEGORIES
+- SITEFAVICON
+- SITECOVER
+- THEME_MENUITEMS
+- THEME_SOCIAL
+- INTERNAL_LINKS
 
 ```python
-GOOGLE_CUSTOM_SEARCH = "your google custom search Id"
-```
-
-**SITEAUTHORS:**
-
-```python
+GOOGLE_CUSTOM_SEARCH = 'your google custom search Id'
 SITEAUTHORS = {
-  'the author name': {
-    'image': 'the author image',
-    'description': 'the author profile'
-  }
+    'the author name': {
+        'image': 'the author image',
+        'description': 'the author profile'
+    }
 }
-```
-
-**SITECATEGORIES:**
-
-```python
 SITECATEGORIES =
-  'the category name': {
-    'image': 'the category image',
-  }
+    'the category name': {
+        'image': 'the category image',
+    }
 }
-```
-
-**SITEFAVICON:**
-
-```python
 SITEFAVICON = 'your favicon.ico path'
-```
-
-**SITECOVER:**
-
-```python
 SITECOVER = 'your cover image path'
-```
-
-**THEME_MENUITEMS:**
-
-```python
 THEME_MENUITEMS = (
-  ('Home', '#', 'fas fa-home')
+    ('Home', '#', 'fas fa-home')
 )
-```
-
-**THEME_SOCIAL:**
-
-```python
 THEME_SOCIAL = (
     ('Github', 'https://github.com/hansliu', 'fab fa-github-square fa-2x')
 )
-```
-
-**INTERNAL_LINKS:**
-
-```python
 INTERNAL_LINKS = (
     ('Terms', 'pages/tos.html'),
     ('Privacy', 'pages/privacy.html')
