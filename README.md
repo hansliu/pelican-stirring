@@ -97,6 +97,8 @@ INTERNAL_LINKS = (
     ('Terms', 'pages/tos.html'),
     ('Privacy', 'pages/privacy.html')
 )
+# Like DISPLAY_PAGES_ON_MENU, you could control DISPLAY_FEEDS_ON_MENU by yourself
+DISPLAY_FEEDS_ON_MENU = True
 ```
 
 ### Theme-specific File metadata
