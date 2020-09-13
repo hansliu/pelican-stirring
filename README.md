@@ -34,7 +34,7 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 **Integrated plugins:**
 
-- [related-posts](https://github.com/pelican-plugins/related-posts)
+- [Related Posts](https://github.com/pelican-plugins/related-posts)
 
 **Depended libraries:**
 
@@ -53,13 +53,23 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 ### Theme-specific Global Variables
 
-#### GOOGLE_CUSTOM_SEARCH
+**GOOGLE_CUSTOM_SEARCH: **
 
 ```python
 GOOGLE_CUSTOM_SEARCH = "your google custom search Id"
 ```
 
-- SITEAUTHORS
+**SITEAUTHORS:**
+
+```python
+SITEAUTHORS = {
+  'author name': {
+    'image': 'your image',
+    'description': 'your profile'
+  }
+}
+```
+
 - SITECATEGORIES
 - SITEFAVICON
 - SITECOVER
