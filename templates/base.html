@@ -80,15 +80,15 @@
         </div>
         {% endif %}
         <ul class="fa-ul">
-          {% if MENU_ITEMS %}
-            {% for name, link, icon in MENU_ITEMS %}
+          {% if MENUITEMS %}
+            {% for name, link, icon in MENUITEMS %}
               {% if icon %}
                 <li><a href="{{ SITEURL }}/{{ link }}"><i class="fa-li {{ icon }}"></i>{{ name }}</a></li>
               {% else %}
                 <li><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
               {% endif %}
             {% endfor %}
-          {% endif %}<!-- /.Menu_items -->
+          {% endif %}<!-- /.Menuitems -->
 
           {% if DISPLAY_CATEGORIES_ON_MENU %}
             {% for cat, articles in categories %}
@@ -143,8 +143,8 @@
 								<a href="{{ SITEURL }}/{{ link }}">{{ name }}</a>
 							{% endfor %}
 						{% endif %}
-						{% if EXTERNAL_LINKS %}
-							{% for name, link in EXTERNAL_LINKS %}
+						{% if LINKS %}
+							{% for name, link in LINKS %}
 								<a href="{{ link }}" target="_blank">{{ name }}</a>
 							{% endfor %}
 						{% endif %}
