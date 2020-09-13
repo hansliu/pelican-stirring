@@ -12,17 +12,8 @@
 <section>
 	<div class="content-wrap">
 		<article id="article">
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- 回應式廣告單元 -->
-			<ins class="adsbygoogle"
-					style="display:block"
-					data-ad-client="ca-pub-2397402631312142"
-					data-ad-slot="5726206164"
-					data-ad-format="auto"
-					data-full-width-responsive="true"></ins>
-			<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-			</script><!-- /.Google Adsense -->
+
+			{% include 'article_adsense.html' %}
 
 			<h1 class="post-title">{{ article.title }}</h1>
 
@@ -31,7 +22,7 @@
 				<span>{{ article.author }}</span>
 				{% endif %}
 
-				posted on {{ article.date.strftime('%B %d, %Y') }}
+				posted on {{ article.date.strftime('%b %d, %Y') }}
 
 				{% if DISQUS_SITENAME %}
 				<script id="dsq-count-scr" src="//hansliu.disqus.com/count.js" async></script>
