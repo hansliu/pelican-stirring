@@ -1,6 +1,6 @@
 # Stirring
 
-Stirring is a theme for Pelican, it's inspired by the Pelican's theme [Fresh](https://github.com/jsliang/pelican-fresh), Hexo's theme [Tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak), and [Medium](https://medium.com/).
+Stirring is a theme for Pelican, it's inspired by the Pelican's theme [Medius](https://github.com/onur/medius) and [Fresh](https://github.com/jsliang/pelican-fresh), Hexo's theme [Tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak), and [Medium](https://medium.com/).
 
 Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-stirring-demo).
 
@@ -83,10 +83,12 @@ SITECATEGORIES =
 SITEFAVICON = 'your favicon.ico path'
 SITECOVER = 'your cover image path'
 THEME_MENUITEMS = (
-    ('Home', '#', 'fas fa-home')
+    ('Home', '#', 'fas fa-home'),
+    ('You can modify those links in your config file', '#', 'font awesome icon')
 )
 THEME_SOCIAL = (
-    ('Github', 'https://github.com/hansliu', 'fab fa-github-square fa-2x')
+    ('Github', 'https://github.com/hansliu', 'fab fa-github-square fa-2x'),
+    ('You can modify those links in your config file', '#', 'font awesome icon')
 )
 INTERNAL_LINKS = (
     ('Terms', 'pages/tos.html'),
@@ -94,19 +96,18 @@ INTERNAL_LINKS = (
 )
 ```
 
-### Theme-specific Article Variables
+### Theme-specific File metadata
 
-**cover:**
-
-Cover use for display article in various places.
+The post support the `Cover` metadata, use for display article in various places. Example metadata used in the post:
 
 ```
-:cover: https://hansliu.com/theme/images/cover.png
-```
-
-```
+Title: Stirring
+Category: Demo
+Date: 2020-09-13
 Cover: https://hansliu.com/theme/images/cover.png
 ```
+
+*NOTE: you don't need put cover image into article again.*
 
 ## Contributing
 
