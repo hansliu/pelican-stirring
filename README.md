@@ -1,8 +1,8 @@
 # Stirring
 
-Stirring is a theme for Pelican, it's inspired by the Pelican's theme [Medius](https://github.com/onur/medius) and [Fresh](https://github.com/jsliang/pelican-fresh), Hexo's theme [Tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak), and [Medium](https://medium.com/).
+Stirring is a theme for Pelican, it's inspired by the Pelican's theme [Medius](https://github.com/onur/medius) and [Fresh](https://github.com/jsliang/pelican-fresh), Hexo's theme [Tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak), and website [Medium](https://medium.com/).
 
-Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-stirring-demo).
+Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-stirring-demo/output).
 
 ## Summary
 
