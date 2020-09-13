@@ -20,6 +20,7 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 - Customizable background image
 - Navigation menu
 - Customizable menu icon
+- Customizable menu display
 - Customizable category image
 - Customizable social icon
 - Image lightbox gallery
@@ -106,10 +107,10 @@ DISPLAY_FEEDS_ON_MENU = True
 The post support the `Cover` metadata, use for display article in various places. Example metadata used in the post:
 
 ```
-Title: Stirring
-Category: Demo
-Date: 2020-09-13
-Cover: https://hansliu.com/theme/images/cover.png
+title: Stirring
+category: Demo
+date: 2020-09-13
+cover: https://hansliu.com/theme/images/cover.png
 ```
 
 *NOTE: you don't need put cover image into article again.*
