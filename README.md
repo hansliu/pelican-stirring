@@ -16,7 +16,7 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 **General features:**
 
 - Fully responsive
-- Customizable favicon icon 
+- Customizable favicon icon
 - Customizable background image
 - Navigation menu
 - Customizable menu icon
@@ -30,7 +30,7 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 - Google Analytics
 - Google Custom Search Engine
-- Disqus 
+- Disqus
 
 **Integrated plugins:**
 
@@ -53,7 +53,7 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 ### Theme-specific Global Variables
 
-**GOOGLE_CUSTOM_SEARCH: **
+**GOOGLE_CUSTOM_SEARCH:**
 
 ```python
 GOOGLE_CUSTOM_SEARCH = "your google custom search Id"
@@ -63,23 +63,73 @@ GOOGLE_CUSTOM_SEARCH = "your google custom search Id"
 
 ```python
 SITEAUTHORS = {
-  'author name': {
-    'image': 'your image',
-    'description': 'your profile'
+  'the author name': {
+    'image': 'the author image',
+    'description': 'the author profile'
   }
 }
 ```
 
-- SITECATEGORIES
-- SITEFAVICON
-- SITECOVER
-- THEME_MENUITEMS
-- THEME_SOCIAL
-- INTERNAL_LINKS
+**SITECATEGORIES:**
+
+```python
+SITECATEGORIES =
+  'the category name': {
+    'image': 'the category image',
+  }
+}
+```
+
+**SITEFAVICON:**
+
+```python
+SITEFAVICON = 'your favicon.ico path'
+```
+
+**SITECOVER:**
+
+```python
+SITECOVER = 'your cover image path'
+```
+
+**THEME_MENUITEMS:**
+
+```python
+THEME_MENUITEMS = (
+  ('Home', '#', 'fas fa-home')
+)
+```
+
+**THEME_SOCIAL:**
+
+```python
+THEME_SOCIAL = (
+    ('Github', 'https://github.com/hansliu', 'fab fa-github-square fa-2x')
+)
+```
+
+**INTERNAL_LINKS:**
+
+```python
+INTERNAL_LINKS = (
+    ('Terms', 'pages/tos.html'),
+    ('Privacy', 'pages/privacy.html')
+)
+```
 
 ### Theme-specific Article Variables
 
-- cover
+**cover:**
+
+Cover use for display article in various places.
+
+```
+:cover: https://hansliu.com/theme/images/cover.png
+```
+
+```
+Cover: https://hansliu.com/theme/images/cover.png
+```
 
 ## Contributing
 
