@@ -1,1 +1,69 @@
-# pelican-temp
+# Stirring
+
+Stirring is a theme for Pelican, it's inspired by the Pelican's theme Fresh, Hexo's theme Tranquilpeak, and Medium.com.
+
+## Summary
+
+- [Features](#features)
+- [Settings](#settings)
+- [Demo](#demo)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+**General features:**
+
+- Fully responsive
+- Customizable favicon icon 
+- Customizable background image
+- Navigation menu
+- Customizable menu icon
+- Customizable category image
+- Customizable social icon
+- Image lightbox gallery
+- Image lazyload
+- Pagination
+
+**Integrated services:**
+
+- Google Analytics
+- Google Custom Search Engine
+- Disqus 
+
+**Depended libraries:**
+
+- [Bootstrap 4.5](https://getbootstrap.com/)
+- [Font Awesome 5](https://fontawesome.com/)
+- [jQuery 3.5.1](https://github.com/jquery/jquery)
+- [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup)
+- [Lazy Load](https://github.com/tuupola/lazyload)
+
+## Settings
+
+### Built-in Global Variables
+
+- GOOGLE_ANALYTICS
+- GOOGLE_CUSTOM_SEARCH
+- DISQUS_SITENAME
+
+### Theme-specific Global Variables
+
+- SITEAUTHORS
+- SITECATEGORIES
+- MENU_ITEMS
+- SOCIAL_ITEMS
+- INTERNAL_LINKS
+- EXTERNAL_LINKS
+
+## Demo
+
+Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-stirring-demo).
+
+## Contributing
+
+All kinds of contributions (enhancements, features, documentation & code improvements, bugs reporting) are welcome.
+
+## License
+
+pelican-temp is released under the terms of the [GNU General Public License v3.0](https://github.com/hansliu/pelican-stirring/blob/master/LICENSE)
