@@ -12,10 +12,10 @@
 	<link rel="canonical" href="{% block canonicalurl %}{{ SITEURL }}{% endblock %}">
 
 	<!-- icon -->
-	{% if THEME_FAVICON %}
-		<link rel="icon" type="image/x-icon" href="{{ THEME_FAVICON }}">
+	{% if SITEFAVICON %}
+	<link rel="icon" type="image/x-icon" href="{{ SITEFAVICON }}">
 	{% else %}
-		<link rel="icon" type="image/x-icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="{{ SITEURL }}/theme/images/favicon-16x16.png">
 	{% endif %}
 
 	<!-- parser -->
@@ -83,15 +83,20 @@
         </div>
         {% endif %}
         <ul class="fa-ul">
-          {% if MENUITEMS %}
-            {% for name, link, icon in MENUITEMS %}
+					{% if MENUITEMS %}
+            {% for name, link in MENUITEMS %}
+							<li><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
+            {% endfor %}
+          {% endif %}<!-- /.Menuitems -->
+          {% if THEME_MENUITEMS %}
+            {% for name, link, icon in THEME_MENUITEMS %}
               {% if icon %}
                 <li><a href="{{ SITEURL }}/{{ link }}"><i class="fa-li {{ icon }}"></i>{{ name }}</a></li>
               {% else %}
                 <li><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
               {% endif %}
             {% endfor %}
-          {% endif %}<!-- /.Menuitems -->
+          {% endif %}
 
           {% if DISPLAY_CATEGORIES_ON_MENU %}
             {% for cat, articles in categories %}
@@ -161,10 +166,10 @@
 
 	</div>
 
-	{% if THEME_COVER %}
-		<div id="cover" style="background-image:url('{{ THEME_COVER }}');"></div>
+	{% if SITECOVER %}
+	<div id="cover" style="background-image:url('{{ SITECOVER }}');"></div>
 	{% else %}
-		<div id="cover" style="background-image:url('{{ SITEURL }}/theme/images/cover.jpg');"></div>
+	<div id="cover" style="background-image:url('{{ SITEURL }}/theme/images/cover.jpg');"></div>
 	{% endif %}
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

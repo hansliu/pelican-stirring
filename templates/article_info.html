@@ -9,14 +9,19 @@
 				<div class="col-8">
 					<h3 class="post-author-name">{{ article.author }}</h3>
 					{% if SOCIAL %}
-						{% for name, link, icon in SOCIAL %}
+						{% for name, link in SOCIAL %}
+							<a href="{{ link }}" target="_blank"></a>
+						{% endfor %}
+          {% endif %}<!-- /.Social -->
+					{% if THEME_SOCIAL %}
+						{% for name, link, icon in THEME_SOCIAL %}
 							{% if icon %}
 								<a href="{{ link }}" target="_blank"><i class="{{ icon }}"></i></a>
 							{% else %}
 								<a href="{{ link }}" target="_blank"></a>
 							{% endif %}
 						{% endfor %}
-          {% endif %}<!-- /.Social -->
+          {% endif %}
 					<p class="post-author-description">
 						{{ SITEAUTHORS.get(article.author|string).description }}
 					</p>
