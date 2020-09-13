@@ -32,6 +32,10 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 - Google Custom Search Engine
 - Disqus 
 
+**Integrated plugins:**
+
+- [related-posts](https://github.com/pelican-plugins/related-posts)
+
 **Depended libraries:**
 
 - [Bootstrap 4.5](https://getbootstrap.com/)
@@ -49,13 +53,23 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 ### Theme-specific Global Variables
 
-- GOOGLE_CUSTOM_SEARCH
+#### GOOGLE_CUSTOM_SEARCH
+
+```python
+GOOGLE_CUSTOM_SEARCH = "your google custom search Id"
+```
+
 - SITEAUTHORS
 - SITECATEGORIES
-- MENU_ITEMS
-- SOCIAL_ITEMS
+- SITEFAVICON
+- SITECOVER
+- THEME_MENUITEMS
+- THEME_SOCIAL
 - INTERNAL_LINKS
-- EXTERNAL_LINKS
+
+### Theme-specific Article Variables
+
+- cover
 
 ## Contributing
 
