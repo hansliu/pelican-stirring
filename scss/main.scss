@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /*
- *  Date: June 2017
- *  Description: A Pelican theme. Based on HTML5.
+ *  Date: September 2020
+ *  Description: Stirring: A Pelican theme.
  *  Website URI: https://hansliu.com
  */
 
@@ -496,7 +496,8 @@ section, article, aside, footer, header, nav {
     margin-top: 10px;
     width: 350px;
     .index-article-author-name {
-      color: #4B7C7C !important;
+      color: darkblue;
+      margin-bottom: 0.1rem;
     }
     .index-article-author-image {
       width: 30px;
@@ -595,6 +596,9 @@ section, article, aside, footer, header, nav {
     padding: 40px 0;
   }
   .post-author-info {
+    .post-author-name {
+      color: #4B7C7C;
+    }
     .post-author-image {
       width: 65px;
       height: 65px;
