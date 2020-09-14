@@ -486,7 +486,7 @@ section, article, aside, footer, header, nav {
   width: 350px;
 }
 .content-wrap .index-article-info .index-article-author-name {
-  color: darkblue;
+  color: #4B7C7C;
   margin-bottom: 0.1rem;
 }
 .content-wrap .index-article-info .index-article-author-image {
@@ -585,8 +585,8 @@ section, article, aside, footer, header, nav {
   }
 }
 .post-footer .post-author-info .post-author-name {
-  color: #4B7C7C;
-  margin-bottom: 0.1rem;
+  color: darkblue;
+  margin-bottom: 0.2rem;
 }
 .post-footer .post-author-info .post-author-image {
   width: 65px;
@@ -637,7 +637,7 @@ img.left, figure.left {
 }
 
 .related-posts li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 @media only screen and (max-width: 1023px) {

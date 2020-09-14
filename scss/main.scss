@@ -496,7 +496,7 @@ section, article, aside, footer, header, nav {
     margin-top: 10px;
     width: 350px;
     .index-article-author-name {
-      color: darkblue;
+      color: #4B7C7C;
       margin-bottom: 0.1rem;
     }
     .index-article-author-image {
@@ -597,8 +597,8 @@ section, article, aside, footer, header, nav {
   }
   .post-author-info {
     .post-author-name {
-      color: #4B7C7C;
-      margin-bottom: 0.1rem;
+      color: darkblue;
+      margin-bottom: 0.2rem;
     }
     .post-author-image {
       width: 65px;
@@ -650,7 +650,7 @@ img.left, figure.left {
 
 .related-posts {
   li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
   }
 }
 
