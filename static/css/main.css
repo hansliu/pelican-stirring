@@ -581,11 +581,12 @@ section, article, aside, footer, header, nav {
 }
 @media screen and (min-width: 48em) {
   .post-footer {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 }
 .post-footer .post-author-info .post-author-name {
   color: #4B7C7C;
+  margin-bottom: 0.1rem;
 }
 .post-footer .post-author-info .post-author-image {
   width: 65px;
@@ -633,6 +634,10 @@ img.left, figure.left {
 .readmore {
   padding: 0 0.5em;
   font-size: 1em;
+}
+
+.related-posts li {
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 1023px) {
