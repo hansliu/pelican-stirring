@@ -525,32 +525,20 @@ section, article, aside, footer, header, nav {
 .post-content a:hover, .post-content a:visited:hover {
   text-decoration: underline;
 }
-.post-content p {
-  margin-bottom: 1rem;
-}
-.post-content strong {
-  background-color: LightYellow;
-  border-radius: 5px;
-}
-.post-content iframe {
-  margin-bottom: 1rem;
+.post-content p, .post-content iframe {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
 }
 .post-content img {
   box-shadow: 3px 3px 6px #dddddd;
-  margin: 0 auto 1.5em auto;
+  margin-bottom: 2.4rem;
   max-width: 100%;
   display: block !important;
 }
-.post-content .img-center {
-  margin: 0.8em auto;
-  padding: 0;
+.post-content figcaption {
+  margin-top: -2.2rem;
+  font-size: 12.8px;
   text-align: center;
-  clear: both;
-}
-.post-content .img-left {
-  margin: 0.8em auto;
-  padding: 0;
-  clear: both;
 }
 .post-content .line-block {
   margin-bottom: 1em;

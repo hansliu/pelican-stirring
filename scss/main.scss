@@ -536,32 +536,20 @@ section, article, aside, footer, header, nav {
       text-decoration: underline;
     }
   }
-  p {
-    margin-bottom: 1rem;
-  }
-  strong {
-    background-color: LightYellow;
-    border-radius: 5px;
-  }
-  iframe {
-    margin-bottom: 1rem;
+  p, iframe {
+    margin-top: 1.2rem;
+    margin-bottom: 0;
   }
   img {
     box-shadow: 3px 3px 6px #dddddd;
-    margin: 0 auto 1.5em auto;
+    margin-bottom: 2.4rem;
     max-width: 100%;
     display: block !important;
   }
-  .img-center {
-    margin: 0.8em auto;
-    padding: 0;
+  figcaption {
+    margin-top: -2.2rem;
+    font-size: $bodysize * 0.8;
     text-align: center;
-    clear: both;
-  }
-  .img-left {
-    margin: 0.8em auto;
-    padding: 0;
-    clear: both;
   }
   .line-block {
     margin-bottom: 1em;
