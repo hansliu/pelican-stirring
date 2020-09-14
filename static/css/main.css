@@ -535,7 +535,7 @@ section, article, aside, footer, header, nav {
 }
 .post-content strong {
   background-color: lightyellow;
-  border-radius: 95px;
+  border-radius: 3px;
 }
 .post-content img {
   box-shadow: 3px 3px 6px #dddddd;
