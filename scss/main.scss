@@ -121,7 +121,7 @@ pre {
 
 code, pre>code {
   font-family: $font-family-code;
-  font-size: $bodysize;
+  font-size: 15px;
 }
 
 blockquote {
@@ -130,7 +130,7 @@ blockquote {
   border: 0;
   p {
     font-size: 15px;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     font-weight: normal;
   }
 }
@@ -161,7 +161,7 @@ body {
   padding: 0;
   color: #5d686f;
   font-size: $bodysize;
-  line-height: $bodysize * 1.5;
+  line-height: 26px;
   letter-spacing: .01em;
   text-align: left;
 }
@@ -536,9 +536,17 @@ section, article, aside, footer, header, nav {
       text-decoration: underline;
     }
   }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2.4rem;
+    margin-bottom: 0.6rem;
+  }
   p, iframe {
     margin-top: 1.2rem;
-    margin-bottom: 0;
+    margin-bottom: 0.6rem;
+  }
+  strong {
+    background-color: lightyellow;
+    border-radius: 95px;
   }
   img {
     box-shadow: 3px 3px 6px #dddddd;
@@ -555,11 +563,13 @@ section, article, aside, footer, header, nav {
     margin-bottom: 1em;
   }
   .highlight {
-    margin-bottom: 1em;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
   }
 }
 
 .post-tag {
+  margin-top: 1.2em;
   a, a:visited {
     color: rgb(117, 117, 117);
     background-color: rgb(242, 242, 242);

@@ -107,7 +107,7 @@ pre {
 
 code, pre > code {
   font-family: Menlo, Consolas, monospace;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 blockquote {
@@ -117,7 +117,7 @@ blockquote {
 }
 blockquote p {
   font-size: 15px;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   font-weight: normal;
 }
 
@@ -147,7 +147,7 @@ body {
   padding: 0;
   color: #5d686f;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   letter-spacing: 0.01em;
   text-align: left;
 }
@@ -525,9 +525,17 @@ section, article, aside, footer, header, nav {
 .post-content a:hover, .post-content a:visited:hover {
   text-decoration: underline;
 }
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+  margin-top: 2.4rem;
+  margin-bottom: 0.6rem;
+}
 .post-content p, .post-content iframe {
   margin-top: 1.2rem;
-  margin-bottom: 0;
+  margin-bottom: 0.6rem;
+}
+.post-content strong {
+  background-color: lightyellow;
+  border-radius: 95px;
 }
 .post-content img {
   box-shadow: 3px 3px 6px #dddddd;
@@ -544,9 +552,13 @@ section, article, aside, footer, header, nav {
   margin-bottom: 1em;
 }
 .post-content .highlight {
-  margin-bottom: 1em;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
 }
 
+.post-tag {
+  margin-top: 1.2em;
+}
 .post-tag a, .post-tag a:visited {
   color: #757575;
   background-color: #f2f2f2;
