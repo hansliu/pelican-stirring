@@ -41,7 +41,9 @@
 				{% if article.cover %}
 				<figure>
 					<a href="{{ article.cover }}"><img src="{{ article.cover }}"></a>
+					{% if article.cover_caption %}
 					<figcaption>{{ article.cover_caption }}</figcaption>
+					{% endif %}
 				</figure>
 				{% endif %}
 				{{ article.content }}
