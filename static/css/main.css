@@ -233,7 +233,7 @@ section, article, aside, footer, header, nav {
 }
 #header .header-right {
   position: absolute;
-  top: 10px;
+  top: 12px;
   right: 20px;
   color: #88909a;
 }
@@ -363,7 +363,7 @@ section, article, aside, footer, header, nav {
 
 #button-open-sidebar {
   position: absolute;
-  top: 10px;
+  top: 12px;
   left: 20px;
   cursor: pointer;
   color: #666;
