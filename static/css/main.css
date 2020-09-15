@@ -13,7 +13,7 @@ h1 {
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 40.5px;
-  line-height: 40.5px;
+  line-height: 58.5px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -29,7 +29,7 @@ h2 {
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 32.4px;
-  line-height: 32.4px;
+  line-height: 46.8px;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -44,7 +44,7 @@ h3 {
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 25.92px;
-  line-height: 25.92px;
+  line-height: 37.44px;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -59,7 +59,7 @@ h4 {
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 20.736px;
-  line-height: 20.736px;
+  line-height: 29.952px;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -74,7 +74,7 @@ h5 {
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 16.5888px;
-  line-height: 16.5888px;
+  line-height: 23.9616px;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -89,7 +89,7 @@ h6 {
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 13.27104px;
-  line-height: 13.27104px;
+  line-height: 19.16928px;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -224,7 +224,7 @@ section, article, aside, footer, header, nav {
 #header .header-title {
   text-align: center;
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 50px;
   margin: 0;
 }
