@@ -434,6 +434,7 @@ section, article, aside, footer, header, nav {
 }
 .content-title-wrap {
   display: block;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   max-width: 1000px;
   margin: 0 auto;
   padding-right: 10px;
@@ -464,6 +465,7 @@ section, article, aside, footer, header, nav {
 
 .content-wrap {
   display: block;
+  font-family: "Noto Sans TC", "Open Sans", sans-serif;
   max-width: 1000px;
   margin: 0 auto;
   padding-right: 10px;
@@ -532,9 +534,6 @@ section, article, aside, footer, header, nav {
   margin-bottom: 1rem;
 }
 
-.post-content {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif;
-}
 .post-content a, .post-content a:visited {
   color: #0366d6;
   text-decoration: none;

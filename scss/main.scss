@@ -21,7 +21,6 @@ $youtubesize: $iframe16-9;
 $sidebarwidth: 250px;
 $font-family-sans: 'Noto Sans TC', 'Open Sans', sans-serif;
 $font-family-serif: 'Noto Serif TC', 'Times New Roman', serif;
-
 $font-family-code: Menlo, Consolas, monospace;
 
 // pure compatible media queries
@@ -438,6 +437,7 @@ section, article, aside, footer, header, nav {
 
 .content-title-wrap {
   display: block;
+  font-family: $font-family-serif;
   max-width: 1000px;
   margin: 0 auto;
   padding-right: 10px;
@@ -468,6 +468,7 @@ section, article, aside, footer, header, nav {
 
 .content-wrap {
   display: block;
+  font-family: $font-family-sans;
   max-width: 1000px;
   margin: 0 auto;
   padding-right: 10px;
@@ -537,7 +538,6 @@ section, article, aside, footer, header, nav {
 }
 
 .post-content {
-  font-family: $font-family-sans;
   a, a:visited {
     color: #0366d6;
     text-decoration: none;
