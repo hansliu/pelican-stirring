@@ -46,7 +46,7 @@ $media-xl: "screen and (min-width: 1200px)"; // >= 1200px
 h1 {
   @include headings;
   font-size: $h1size * 0.9;
-  line-height: $h1size * 1.2;
+  line-height: $h1size * 1.1;
   margin-top: 1rem;
   margin-bottom: 1rem;
   @media #{$media-md} {
@@ -58,7 +58,7 @@ h1 {
 h2 {
   @include headings;
   font-size: $h2size * 0.9;
-  line-height: $h2size * 1.2;
+  line-height: $h2size * 1.1;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h2size;
@@ -69,7 +69,7 @@ h2 {
 h3 {
   @include headings;
   font-size: $h3size * 0.9;
-  line-height: $h3size * 1.2;
+  line-height: $h3size * 1.1;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h3size;
@@ -80,7 +80,7 @@ h3 {
 h4 {
   @include headings;
   font-size: $h4size * 0.9;
-  line-height: $h4size * 1.2;
+  line-height: $h4size * 1.1;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h4size;
@@ -91,7 +91,7 @@ h4 {
 h5 {
   @include headings;
   font-size: $h5size * 0.9;
-  line-height: $h5size * 1.2;
+  line-height: $h5size * 1.1;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h5size;
@@ -102,7 +102,7 @@ h5 {
 h6 {
   @include headings;
   font-size: $h6size * 0.9;
-  line-height: $h6size * 1.2;
+  line-height: $h6size * 1.1;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h6size;
