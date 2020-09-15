@@ -224,7 +224,7 @@ section, article, aside, footer, header, nav {
 #header .header-title {
   text-align: center;
   font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 50px;
   margin: 0;
 }
