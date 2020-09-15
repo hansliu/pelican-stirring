@@ -124,12 +124,12 @@ body {
   padding: 0;
   color: rgba(41, 41, 41, 0.89);
   font-size: $font-size-body;
-  line-height: $font-size-body * 1.5;
+  line-height: 1.5;
   letter-spacing: .01em;
   text-align: left;
   @media #{$media-md} {
     font-size: $font-size-body * 1.1;
-    line-height: $font-size-body * 1.65;
+    line-height: 1.75;
   }
 }
 
