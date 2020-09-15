@@ -20,7 +20,7 @@ h1 {
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 45px;
-    line-height: 45px;
+    line-height: 49.5px;
   }
 }
 
@@ -35,7 +35,7 @@ h2 {
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 36px;
-    line-height: 36px;
+    line-height: 39.6px;
   }
 }
 
@@ -50,7 +50,7 @@ h3 {
 @media screen and (min-width: 768px) {
   h3 {
     font-size: 28.8px;
-    line-height: 28.8px;
+    line-height: 31.68px;
   }
 }
 
@@ -65,7 +65,7 @@ h4 {
 @media screen and (min-width: 768px) {
   h4 {
     font-size: 23.04px;
-    line-height: 23.04px;
+    line-height: 25.344px;
   }
 }
 
@@ -80,7 +80,7 @@ h5 {
 @media screen and (min-width: 768px) {
   h5 {
     font-size: 18.432px;
-    line-height: 18.432px;
+    line-height: 20.2752px;
   }
 }
 
@@ -95,7 +95,7 @@ h6 {
 @media screen and (min-width: 768px) {
   h6 {
     font-size: 14.7456px;
-    line-height: 14.7456px;
+    line-height: 16.22016px;
   }
 }
 

@@ -51,7 +51,7 @@ h1 {
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h1size;
-    line-height: $h1size;
+    line-height: $h1size * 1.1;
   }
 }
 
@@ -62,7 +62,7 @@ h2 {
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h2size;
-    line-height: $h2size;
+    line-height: $h2size * 1.1;
   }
 }
 
@@ -73,7 +73,7 @@ h3 {
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h3size;
-    line-height: $h3size;
+    line-height: $h3size * 1.1;
   }
 }
 
@@ -84,7 +84,7 @@ h4 {
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h4size;
-    line-height: $h4size;
+    line-height: $h4size * 1.1;
   }
 }
 
@@ -95,7 +95,7 @@ h5 {
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h5size;
-    line-height: $h5size;
+    line-height: $h5size * 1.1;
   }
 }
 
@@ -106,7 +106,7 @@ h6 {
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h6size;
-    line-height: $h6size;
+    line-height: $h6size * 1.1;
   }
 }
 
