@@ -99,6 +99,12 @@ h6 {
   }
 }
 
+strong, b {
+  color: #292929;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-weight: bold;
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -107,7 +113,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  color: #5d686f;
+  color: rgba(41, 41, 41, 0.89);
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.01em;
@@ -148,10 +154,6 @@ blockquote p {
   font-weight: normal;
 }
 
-strong, b {
-  font-weight: bold;
-}
-
 em, i {
   font-style: italic;
 }
@@ -169,7 +171,7 @@ section {
 }
 
 a, a:visited {
-  color: #292929;
+  color: #3d3d3d;
   text-decoration: none;
 }
 a:hover, a:visited:hover {
@@ -534,7 +536,7 @@ section, article, aside, footer, header, nav {
   font-family: "Microsoft YaHei", "Noto Sans TC", "Open Sans", sans-serif;
 }
 .post-content a, .post-content a:visited {
-  color: blue;
+  color: #0366d6;
   text-decoration: none;
 }
 .post-content a:hover, .post-content a:visited:hover {
