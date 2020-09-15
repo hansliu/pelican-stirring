@@ -563,9 +563,6 @@ section, article, aside, footer, header, nav {
   font-size: 14.4px;
   text-align: center;
 }
-.post-content .line-block {
-  margin-bottom: 1em;
-}
 .post-content .highlight {
   margin-top: 1.2rem;
   margin-bottom: 1rem;
