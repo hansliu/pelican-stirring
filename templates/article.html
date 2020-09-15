@@ -13,8 +13,6 @@
 	<div class="content-wrap">
 		<article id="article">
 
-			{% include 'article_adsense.html' %}
-
 			<h1 class="post-title">{{ article.title }}</h1>
 
 			<div class="post-info">
@@ -46,6 +44,9 @@
 					{% endif %}
 				</figure>
 				{% endif %}
+
+				{% include 'article_adsense.html' %}
+
 				{{ article.content }}
 			</div>
 
