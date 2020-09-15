@@ -169,7 +169,7 @@ section {
 }
 
 a, a:visited {
-  color: rgba(0, 0, 0, 0.68);
+  color: #292929;
   text-decoration: none;
 }
 a:hover, a:visited:hover {
@@ -479,6 +479,9 @@ section, article, aside, footer, header, nav {
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+}
+.content-wrap .index-article-cover-first {
   margin-bottom: 1rem;
 }
 .content-wrap .index-article {

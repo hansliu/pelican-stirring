@@ -38,7 +38,7 @@ $media-xl: "screen and (min-width: 1200px)"; // >= 1200px
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 @mixin headings {
-  color: rgb(41, 41, 41);
+  color: rgba(41, 41, 41, 1);
   font-family: $font-family-serif;
   font-weight: bold;
 }
@@ -178,7 +178,7 @@ section {
 }
 
 a, a:visited {
-  color: rgba(0, 0, 0, 0.68);
+  color: rgba(41, 41, 41, 1);
   text-decoration: none;
   &:hover {
     color: rgba(0, 0, 0, 0.48);
@@ -484,6 +484,9 @@ section, article, aside, footer, header, nav {
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 1rem;
+  }
+  .index-article-cover-first {
     margin-bottom: 1rem;
   }
   .index-article {
