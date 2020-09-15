@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 h1 {
   color: #292929;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 44px;
@@ -26,7 +26,7 @@ h1 {
 
 h2 {
   color: #292929;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 28.8px;
   line-height: 35.2px;
@@ -41,7 +41,7 @@ h2 {
 
 h3 {
   color: #292929;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 23.04px;
   line-height: 28.16px;
@@ -56,7 +56,7 @@ h3 {
 
 h4 {
   color: #292929;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 18.432px;
   line-height: 22.528px;
@@ -71,7 +71,7 @@ h4 {
 
 h5 {
   color: #292929;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 14.7456px;
   line-height: 18.0224px;
@@ -86,7 +86,7 @@ h5 {
 
 h6 {
   color: #292929;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
   font-size: 11.79648px;
   line-height: 14.41792px;
@@ -101,7 +101,7 @@ h6 {
 
 strong, b {
   color: #292929;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
 }
 
@@ -223,7 +223,7 @@ section, article, aside, footer, header, nav {
 }
 #header .header-title {
   text-align: center;
-  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
+  font-family: "Noto Serif TC", "Times New Roman", serif;
   font-size: 0.9rem;
   line-height: 50px;
   margin: 0;
@@ -251,7 +251,7 @@ section, article, aside, footer, header, nav {
 }
 
 #sidebar {
-  font-family: "Microsoft YaHei", "Noto Sans TC", "Open Sans", sans-serif;
+  font-family: "Noto Sans TC", "Open Sans", sans-serif;
   font-size: 16px;
   position: fixed;
   width: 250px;
@@ -526,14 +526,14 @@ section, article, aside, footer, header, nav {
 }
 
 .post-info {
-  font-family: "Microsoft YaHei", "Noto Sans TC", "Open Sans", sans-serif;
+  font-family: "Noto Sans TC", "Open Sans", sans-serif;
   font-size: 0.8em;
   text-align: right;
   margin-bottom: 1rem;
 }
 
 .post-content {
-  font-family: "Microsoft YaHei", "Noto Sans TC", "Open Sans", sans-serif;
+  font-family: "Noto Sans TC", "Open Sans", sans-serif;
 }
 .post-content a, .post-content a:visited {
   color: #0366d6;
@@ -779,7 +779,7 @@ table.gallery img {
 }
 
 .archive_row {
-  font-family: "Microsoft YaHei", "Noto Sans TC", "Open Sans", sans-serif;
+  font-family: "Noto Sans TC", "Open Sans", sans-serif;
   margin-right: -15px;
   margin-left: -15px;
 }
