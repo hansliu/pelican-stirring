@@ -491,7 +491,7 @@ section, article, aside, footer, header, nav {
   border: 1px solid rgba(0, 0, 0, 0.15) !important;
 }
 .content-wrap .index-article-info {
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 18px;
   margin-top: 10px;
   width: 350px;
@@ -505,8 +505,8 @@ section, article, aside, footer, header, nav {
   height: 30px;
   border-radius: 90px;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
   border: 0px !important;
 }
 
