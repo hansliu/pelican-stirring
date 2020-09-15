@@ -8,9 +8,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 h1 {
+  color: #292929;
   font-family: "Microsoft YaHei", "Times New Roman", serif;
   font-weight: bold;
-  color: #111;
   font-size: 40.5px;
   line-height: 40.5px;
   margin-top: 1rem;
@@ -24,9 +24,9 @@ h1 {
 }
 
 h2 {
+  color: #292929;
   font-family: "Microsoft YaHei", "Times New Roman", serif;
   font-weight: bold;
-  color: #222;
   font-size: 32.4px;
   line-height: 32.4px;
   margin-bottom: 1rem;
@@ -39,9 +39,9 @@ h2 {
 }
 
 h3 {
+  color: #292929;
   font-family: "Microsoft YaHei", "Times New Roman", serif;
   font-weight: bold;
-  color: #333;
   font-size: 25.92px;
   line-height: 25.92px;
   margin-bottom: 1rem;
@@ -54,9 +54,9 @@ h3 {
 }
 
 h4 {
+  color: #292929;
   font-family: "Microsoft YaHei", "Times New Roman", serif;
   font-weight: bold;
-  color: #444;
   font-size: 20.736px;
   line-height: 20.736px;
   margin-bottom: 1rem;
@@ -69,9 +69,9 @@ h4 {
 }
 
 h5 {
+  color: #292929;
   font-family: "Microsoft YaHei", "Times New Roman", serif;
   font-weight: bold;
-  color: #555;
   font-size: 16.5888px;
   line-height: 16.5888px;
   margin-bottom: 1rem;
@@ -84,9 +84,9 @@ h5 {
 }
 
 h6 {
+  color: #292929;
   font-family: "Microsoft YaHei", "Times New Roman", serif;
   font-weight: bold;
-  color: #666;
   font-size: 13.27104px;
   line-height: 13.27104px;
   margin-bottom: 1rem;

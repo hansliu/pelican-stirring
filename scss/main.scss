@@ -36,13 +36,13 @@ $media-xl: "screen and (min-width: 1200px)"; // >= 1200px
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 @mixin headings {
+  color: rgb(41, 41, 41);
   font-family: $font-family-serif;
   font-weight: bold;
 }
 
 h1 {
   @include headings;
-  color: #111;
   font-size: $h1size * 0.9;
   line-height: $h1size * 0.9;
   margin-top: 1rem;
@@ -55,7 +55,6 @@ h1 {
 
 h2 {
   @include headings;
-  color: #222;
   font-size: $h2size * 0.9;
   line-height: $h2size * 0.9;
   margin-bottom: 1rem;
@@ -67,7 +66,6 @@ h2 {
 
 h3 {
   @include headings;
-  color: #333;
   font-size: $h3size * 0.9;
   line-height: $h3size * 0.9;
   margin-bottom: 1rem;
@@ -79,7 +77,6 @@ h3 {
 
 h4 {
   @include headings;
-  color: #444;
   font-size: $h4size * 0.9;
   line-height: $h4size * 0.9;
   margin-bottom: 1rem;
@@ -91,7 +88,6 @@ h4 {
 
 h5 {
   @include headings;
-  color: #555;
   font-size: $h5size * 0.9;
   line-height: $h5size * 0.9;
   margin-bottom: 1rem;
@@ -103,7 +99,6 @@ h5 {
 
 h6 {
   @include headings;
-  color: #666;
   font-size: $h6size * 0.9;
   line-height: $h6size * 0.9;
   margin-bottom: 1rem;
