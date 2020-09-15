@@ -6,14 +6,15 @@
  *  Website URI: https://hansliu.com
  */
 
-$padding: 0.6em;
-$bodysize: 16px;
-$h1size: $bodysize * 2.5;
-$h2size: $h1size * 4/5;
-$h3size: $h2size * 4/5;
-$h4size: $h3size * 4/5;
-$h5size: $h4size * 4/5;
-$h6size: $h5size * 4/5;
+$padding: 0.6rem;
+$font-size-body: 18px;
+$font-size-code: 16px;
+$h1size: $font-size-body * 2.5;
+$h2size: $h1size * 0.8;
+$h3size: $h2size * 0.8;
+$h4size: $h3size * 0.8;
+$h5size: $h4size * 0.8;
+$h6size: $h5size * 0.8;
 $iframe16-9: 56.25%;
 $iframe4-3: 75%;
 $youtubesize: $iframe16-9;
@@ -23,10 +24,10 @@ $font-family-serif: 'Microsoft YaHei', 'Times New Roman', serif;
 $font-family-code: Menlo, Consolas, monospace;
 
 // pure compatible media queries
-$media-sm: "screen and (min-width: 35.5em)";
-$media-md: "screen and (min-width: 48em)";
-$media-lg: "screen and (min-width: 64em)";
-$media-xl: "screen and (min-width: 80em)";
+$media-sm: "screen and (min-width: 576px)"; // >= 576px
+$media-md: "screen and (min-width: 768px)"; // >= 768px
+$media-lg: "screen and (min-width: 992px)"; // >= 992px
+$media-xl: "screen and (min-width: 1200px)"; // >= 1200px
 // usage:
 // @media #{$media-sm} { ... }
 
@@ -41,69 +42,93 @@ $media-xl: "screen and (min-width: 80em)";
 
 h1 {
   @include headings;
-  font-size: $h1size * 9/10;
   color: #111;
-  line-height: $h1size;
+  font-size: $h1size * 0.9;
+  line-height: $h1size * 0.9;
   margin-top: 1rem;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h1size;
+    line-height: $h1size;
   }
 }
 
 h2 {
   @include headings;
-  font-size: $h2size * 9/10;
   color: #222;
-  line-height: $h2size;
+  font-size: $h2size * 0.9;
+  line-height: $h2size * 0.9;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h2size;
+    line-height: $h2size;
   }
 }
 
 h3 {
   @include headings;
-  font-size: $h3size * 9/10;
   color: #333;
-  line-height: $h3size;
+  font-size: $h3size * 0.9;
+  line-height: $h3size * 0.9;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h3size;
+    line-height: $h3size;
   }
 }
 
 h4 {
   @include headings;
-  font-size: $h4size * 9/10;
   color: #444;
-  line-height: $h4size;
+  font-size: $h4size * 0.9;
+  line-height: $h4size * 0.9;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h4size;
+    line-height: $h4size;
   }
 }
 
 h5 {
   @include headings;
-  font-size: $h5size * 9/10;
   color: #555;
-  line-height: $h5size;
+  font-size: $h5size * 0.9;
+  line-height: $h5size * 0.9;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h5size;
+    line-height: $h5size;
   }
 }
 
 h6 {
   @include headings;
-  font-size: $h6size * 9/10;
   color: #666;
-  line-height: $h6size;
-  margin-top: 1rem;
+  font-size: $h6size * 0.9;
+  line-height: $h6size * 0.9;
   margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h6size;
+    line-height: $h6size;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #5d686f;
+  font-size: $font-size-body;
+  line-height: $font-size-body * 1.5;
+  letter-spacing: .01em;
+  text-align: left;
+  @media #{$media-md} {
+    font-size: $font-size-body * 1.1;
+    line-height: $font-size-body * 1.1 * 1.5;
   }
 }
 
@@ -111,7 +136,7 @@ pre {
   background-color: #eeeeee;
   padding: 10px;
   margin: 10px;
-  font-size: $bodysize;
+  font-size: $font-size-body;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -121,7 +146,7 @@ pre {
 
 code, pre>code {
   font-family: $font-family-code;
-  font-size: 15px;
+  font-size: $font-size-code;
 }
 
 blockquote {
@@ -129,7 +154,7 @@ blockquote {
   font-style: normal;
   border: 0;
   p {
-    font-size: 15px;
+    font-size: $font-size-code;
     margin-bottom: 1rem;
     font-weight: normal;
   }
@@ -149,21 +174,6 @@ ul {
 
 ol {
   list-style: outside decimal;
-}
-
-html, body {
-  overflow-x: hidden;
-}
-
-body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  color: #5d686f;
-  font-size: $bodysize;
-  line-height: 26px;
-  letter-spacing: .01em;
-  text-align: left;
 }
 
 section {
@@ -232,7 +242,7 @@ section, article, aside, footer, header, nav {
   }
   .header-right {
     position: absolute;
-    top: 12px;
+    top: 10px;
     right: 20px;
     color: #88909a;
   }
@@ -252,6 +262,7 @@ section, article, aside, footer, header, nav {
 
 #sidebar {
   font-family: $font-family-sans;
+  font-size: $font-size-body;
   position: fixed;
   width: $sidebarwidth;
   height: 100%;
@@ -362,7 +373,7 @@ section, article, aside, footer, header, nav {
 
 #button-open-sidebar {
   position: absolute;
-  top: 12px;
+  top: 10px;
   left: 20px;
   cursor: pointer;
   color: #666;
@@ -391,21 +402,19 @@ section, article, aside, footer, header, nav {
   transform: translate3d($sidebarwidth, 0, 0)
 }
 
-// responsive main and sidebar
-@media only screen and (max-width: 1023px) {
-  #sidebar {
-    left: 0 - $sidebarwidth;
-  }
-  #header {
-    display: auto;
-  }
-  #main {
-    width: 100%;
-    padding-top: 60px;
-  }
+// Responsive main and sidebar
+#sidebar {
+  left: 0 - $sidebarwidth;
+}
+#header {
+  display: auto;
+}
+#main {
+  width: 100%;
+  padding-top: 60px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media #{$media-lg} {
   // show sidebar, hide header
   #sidebar[data-behavior='1'] {
     left: 0;
@@ -492,7 +501,7 @@ section, article, aside, footer, header, nav {
   }
   .index-article-info {
     font-size: 12px;
-    line-height: $bodysize;
+    line-height: $font-size-body;
     margin-top: 10px;
     width: 350px;
     .index-article-author-name {
@@ -556,7 +565,7 @@ section, article, aside, footer, header, nav {
   }
   figcaption {
     margin-top: -2.2rem;
-    font-size: $bodysize * 0.8;
+    font-size: $font-size-body * 0.8;
     text-align: center;
   }
   .line-block {
@@ -643,10 +652,9 @@ img.left, figure.left {
 
 .readmore {
   padding: 0 0.5em;
-  font-size: 1em;
 }
 
-@media only screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .youtube {
     position: relative;
     padding-bottom: $youtubesize;
@@ -680,56 +688,6 @@ img.left, figure.left {
   }
   .gsc-search-button {
     display: none !important;
-  }
-}
-
-#comments-list {
-  list-style: none;
-  margin: 0 1em;
-  blockquote {
-    background: #f8f8f8;
-    clear: both;
-    font-style: normal;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 5px;
-  }
-  footer {
-    color: #888;
-    padding: 0.5em 1em 0 0;
-    text-align: right;
-  }
-  li:nth-child(2n) blockquote {
-    background: #F5f5f5;
-  }
-}
-
-#add-comment {
-  label {
-    clear: left;
-    float: left;
-    text-align: left;
-  }
-  input {
-    &[type='text'], &[type='email'], &[type='url'] {
-      float: left;
-    }
-  }
-  textarea {
-    float: left;
-    height: 150px;
-  }
-  p.req {
-    clear: both;
-    margin: 0 0.5em 1em 0;
-    text-align: right;
-  }
-  input[type='submit'] {
-    float: right;
-    margin: 0 0.5em;
-  }
-  * {
-    margin-bottom: .5em;
   }
 }
 
@@ -825,7 +783,7 @@ table.gallery {
 }
 
 .archive_row {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: $font-family-sans;
   margin-right: -15px;
   margin-left: -15px;
   .archive_year{
