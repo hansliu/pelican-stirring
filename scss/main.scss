@@ -7,8 +7,8 @@
  */
 
 $padding: 0.6rem;
-$font-size-body: 18px;
-$font-size-code: 16px;
+$font-size-body: 16px;
+$font-size-code: 14px;
 $h1size: $font-size-body * 2.5;
 $h2size: $h1size * 0.8;
 $h3size: $h2size * 0.8;
@@ -129,7 +129,7 @@ body {
   text-align: left;
   @media #{$media-md} {
     font-size: $font-size-body * 1.1;
-    line-height: $font-size-body * 1.1 * 1.5;
+    line-height: $font-size-body * 1.65;
   }
 }
 
