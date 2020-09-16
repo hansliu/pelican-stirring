@@ -500,6 +500,9 @@ section, article, aside, footer, header, nav {
       border: 1px solid rgba(0, 0, 0, 0.15) !important;
     }
   }
+  .index-article-content {
+    line-height: 1.5;
+  }
   .index-article-info {
     font-size: $font-size-body * 0.75;
     line-height: $font-size-body;
