@@ -1,3 +1,11 @@
+# pipenv
+.venv
+Pipfile
+Pipfile.lock
+
 .sass-cache/
 *.sass.map
 *.scss.map
+
+# submodule 
+stirring/
