@@ -96,7 +96,8 @@ THEME_SOCIAL = (
 # The INTERNAL LINKS open the linked in current window
 INTERNAL_LINKS = (
     ('Terms', 'pages/tos.html'),
-    ('Privacy', 'pages/privacy.html')
+    ('Privacy', 'pages/privacy.html'),
+    ('You can modify those links in your config file', '#')
 )
 # Like DISPLAY_PAGES_ON_MENU, you could control DISPLAY_FEEDS_ON_MENU by yourself
 DISPLAY_FEEDS_ON_MENU = True
@@ -104,13 +105,14 @@ DISPLAY_FEEDS_ON_MENU = True
 
 ### Theme-specific File metadata
 
-The post support the `Cover` metadata, use for display article in various places. Example metadata used in the post:
+The post support the `cover` and `cover_caption` metadata, use for display article in various places. Example metadata used in the post:
 
 ```
 title: Stirring
 category: Demo
 date: 2020-09-13
 cover: https://hansliu.com/theme/images/cover.png
+cover_caption: Image by Author
 ```
 
 *NOTE: you don't need put cover image into article again.*
