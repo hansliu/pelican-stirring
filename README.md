@@ -4,7 +4,7 @@ Stirring is a theme for Pelican, it's inspired by the Pelican's theme [Medius](h
 
 Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-stirring/demo).
 
-[[!screenshot](/screenshot.png)](https://hansliu.com/pelican-stirring/demo)
+[![screenshot](/screenshot.png)](https://hansliu.com/pelican-stirring/demo)
 
 ## Summary
 
