@@ -130,7 +130,7 @@ pre {
   background-color: #eeeeee;
   padding: 10px;
   margin: 10px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -140,7 +140,7 @@ pre {
 
 code, pre > code {
   font-family: Menlo, Consolas, monospace;
-  font-size: 14px;
+  font-size: 12.25px;
 }
 
 blockquote {
@@ -566,6 +566,9 @@ section, article, aside, footer, header, nav {
   margin-top: -2.2rem;
   font-size: 12.8px;
   text-align: center;
+}
+.post-content dd p.first {
+  margin-top: 0;
 }
 .post-content .highlight {
   margin-top: 1.2rem;
