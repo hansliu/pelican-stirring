@@ -125,4 +125,4 @@ All kinds of contributions (enhancements, features, documentation & code improve
 
 ## License
 
-pelican-temp is released under the terms of the [GNU General Public License v3.0](https://github.com/hansliu/pelican-stirring/blob/master/LICENSE)
+pelican-stirring is released under the terms of the [GNU General Public License v3.0](https://github.com/hansliu/pelican-stirring/blob/master/LICENSE)
