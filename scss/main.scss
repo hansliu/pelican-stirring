@@ -50,7 +50,7 @@ h1 {
   line-height: $h1size * 1.1;
   @media #{$media-md} {
     font-size: $h1size;
-    line-height: $h1size * 1.1;
+    line-height: $h1size * 1.2;
   }
 }
 
@@ -60,7 +60,7 @@ h2 {
   line-height: $h2size * 1.1;
   @media #{$media-md} {
     font-size: $h2size;
-    line-height: $h2size * 1.1;
+    line-height: $h2size * 1.2;
   }
 }
 
@@ -70,7 +70,7 @@ h3 {
   line-height: $h3size * 1.1;
   @media #{$media-md} {
     font-size: $h3size;
-    line-height: $h3size * 1.1;
+    line-height: $h3size * 1.2;
   }
 }
 
@@ -80,7 +80,7 @@ h4 {
   line-height: $h4size * 1.1;
   @media #{$media-md} {
     font-size: $h4size;
-    line-height: $h4size * 1.1;
+    line-height: $h4size * 1.2;
   }
 }
 
@@ -90,7 +90,7 @@ h5 {
   line-height: $h5size * 1.1;
   @media #{$media-md} {
     font-size: $h5size;
-    line-height: $h5size * 1.1;
+    line-height: $h5size * 1.2;
   }
 }
 
@@ -100,7 +100,7 @@ h6 {
   line-height: $h6size * 1.1;
   @media #{$media-md} {
     font-size: $h6size;
-    line-height: $h6size * 1.1;
+    line-height: $h6size * 1.2;
   }
 }
 
