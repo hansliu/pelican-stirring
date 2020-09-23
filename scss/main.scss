@@ -105,7 +105,9 @@ h6 {
 }
 
 strong, b {
-  @include headings;
+  color: rgba(41, 41, 41, 1);
+  font-family: $font-family-serif;
+  font-weight: bold;
 }
 
 html, body {
@@ -563,7 +565,7 @@ section, article, aside, footer, header, nav {
   }
   figcaption {
     margin-top: -2.2rem;
-    font-size: $font-size-body * 0.8;
+    font-size: $font-size-body * 0.875;
     text-align: center;
   }
   dd {
@@ -618,6 +620,10 @@ section, article, aside, footer, header, nav {
         margin-top: 15px;
         margin-left: 40px;
       }
+    }
+    .post-author-description {
+      margin-top: 0;
+      margin-bottom: 0.6rem;
     }
   }
   .post-category-info {
