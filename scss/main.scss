@@ -36,18 +36,18 @@ $media-xl: "screen and (min-width: 1200px)"; // >= 1200px
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-@mixin headings {
+@mixin headings($top: 0, $bottom: 1rem) {
   color: rgba(41, 41, 41, 1);
   font-family: $font-family-serif;
   font-weight: bold;
+  margin-top: $top;
+  margin-bottom: $bottom;
 }
 
 h1 {
-  @include headings;
+  @include headings(1rem, 1rem);
   font-size: $h1size * 0.9;
   line-height: $h1size * 1.1;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h1size;
     line-height: $h1size * 1.1;
@@ -58,7 +58,6 @@ h2 {
   @include headings;
   font-size: $h2size * 0.9;
   line-height: $h2size * 1.1;
-  margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h2size;
     line-height: $h2size * 1.1;
@@ -69,7 +68,6 @@ h3 {
   @include headings;
   font-size: $h3size * 0.9;
   line-height: $h3size * 1.1;
-  margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h3size;
     line-height: $h3size * 1.1;
@@ -80,7 +78,6 @@ h4 {
   @include headings;
   font-size: $h4size * 0.9;
   line-height: $h4size * 1.1;
-  margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h4size;
     line-height: $h4size * 1.1;
@@ -91,7 +88,6 @@ h5 {
   @include headings;
   font-size: $h5size * 0.9;
   line-height: $h5size * 1.1;
-  margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h5size;
     line-height: $h5size * 1.1;
@@ -102,7 +98,6 @@ h6 {
   @include headings;
   font-size: $h6size * 0.9;
   line-height: $h6size * 1.1;
-  margin-bottom: 1rem;
   @media #{$media-md} {
     font-size: $h6size;
     line-height: $h6size * 1.1;
