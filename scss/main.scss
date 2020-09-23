@@ -563,6 +563,9 @@ section, article, aside, footer, header, nav {
     max-width: 100%;
     display: block !important;
   }
+  figure {
+    margin: 0 auto;
+  }
   figcaption {
     margin-top: -2.2rem;
     font-size: $font-size-body * 0.875;
