@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+{% block keywords %}{{ article.tags|join(', ') }}{% endblock %}
 {% block title %}{{ article.title|striptags }} | {{ SITENAME }}{% endblock %}
 {% block ogtitle %}{{ article.title|striptags }}{% endblock %}
 {% block ogurl %}{{ SITEURL }}/{{ article.url }}{% endblock %}
