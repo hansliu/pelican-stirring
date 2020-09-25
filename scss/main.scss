@@ -221,7 +221,7 @@ section, article, aside, footer, header, nav {
   top: 0;
   border: 1px solid #eef2f8;
   background-color: #fff;
-  color: #88909a;
+  color: #757575;
   z-index: 10;
   .header-title {
     text-align: center;
@@ -231,13 +231,13 @@ section, article, aside, footer, header, nav {
     margin: 0;
   }
   .header-title-link {
-    color: #88909a;
+    color: #757575;
   }
   .header-right {
     position: absolute;
     top: 12px;
     right: 20px;
-    color: #88909a;
+    color: #757575;
   }
   .header-image {
     display: block;
@@ -340,12 +340,12 @@ section, article, aside, footer, header, nav {
 }
 
 #footer {
-  color: #88909a;
+  color: #757575;
   text-align: center;
   font-size: 0.8em;
   padding: $padding;
   a, a:visited{
-    color: #88909a;
+    color: #757575;
     text-decoration: none;
     margin-left: 8px;
     margin-right: 8px;
