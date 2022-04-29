@@ -554,8 +554,12 @@ section, article, aside, footer, header, nav {
     margin-top: 1.2rem;
     margin-bottom: 0.6rem;
   }
-  strong {
+  strong, b {
     background-color: lightyellow;
+    border-radius: 3px;
+  }
+  i {
+    background-color: lightcyan;
     border-radius: 3px;
   }
   img {
