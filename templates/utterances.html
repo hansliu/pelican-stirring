@@ -1,0 +1,12 @@
+{% if UTTERANCES_REPO %}
+<div class="comments">
+	<script src="https://utteranc.es/client.js"
+		data-repo="{{ UTTERANCES_REPO }}"
+		data-issue-term="{{ article.url }}"
+		data-label="{{ UTTERANCES_LABEL }}"
+		data-theme="{{ UTTERANCES_THEME }}"
+		crossorigin="anonymous"
+		async>
+	</script>
+</div>
+{% endif %}

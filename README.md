@@ -33,6 +33,7 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 - Google Analytics
 - Google Custom Search Engine
+- Utterances
 - Disqus
 
 **Integrated plugins:**
@@ -51,10 +52,16 @@ Check out live demo for the Stirring theme [here](https://hansliu.com/pelican-st
 
 ### Built-in Global Variables
 
+- UTTERANCES_REPO
+- UTTERANCES_LABEL
+- UTTERANCES_THEME
 - DISQUS_SITENAME
 - GOOGLE_ANALYTICS
 
 ```python
+UTTERANCES_REPO = 'your github repo'
+UTTERANCES_LABEL = 'your github repo issue label'
+UTTERANCES_THEME = 'your utterances theme'
 DISQUS_SITENAME = 'your disqus sitename'
 GOOGLE_ANALYTICS = 'your google analytics Id'
 ```
